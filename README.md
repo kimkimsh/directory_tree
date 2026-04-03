@@ -31,6 +31,14 @@ make.bat run       :: launch the application
 make.bat build     :: produce dist\DirectoryTree.exe
 ```
 
+> **PowerShell users:** PowerShell does not run `.bat` files from the current directory without an explicit path prefix. Use `.\make.bat` instead of `make.bat`:
+> ```powershell
+> .\make.bat setup
+> .\make.bat run
+> .\make.bat build
+> ```
+> This is not required in CMD, where `make.bat` works directly.
+
 The application opens in the current working directory by default. You can also pass a directory path as an argument:
 
 ```bat
