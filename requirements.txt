@@ -1,0 +1,2 @@
+# Runtime dependencies
+# tkinter is built-in with Python, no extra packages needed
