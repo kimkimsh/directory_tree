@@ -7,14 +7,14 @@ import tkinter as tk
 from tkinter import ttk
 from typing import Optional
 
-from .tree_scanner import (
+from directory_tree.tree_scanner import (
     BackgroundScanner,
     FileEntry,
     scan_single_level,
     DEFAULT_EXCLUDED_DIRS,
 )
-from .search import SearchResult, search_entries
-from .utils import (
+from directory_tree.search import SearchResult, search_entries
+from directory_tree.utils import (
     format_file_size,
     format_timestamp,
     open_in_explorer,

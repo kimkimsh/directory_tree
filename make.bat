@@ -192,6 +192,7 @@ if "%ENV_MODE%"=="venv" (
             --name %APP_NAME% ^
             --onefile ^
             --windowed ^
+            --paths=src ^
             !ICON_FLAG! ^
             --clean ^
             --noconfirm ^

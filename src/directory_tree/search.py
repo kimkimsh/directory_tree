@@ -6,7 +6,7 @@ import os
 from dataclasses import dataclass
 from typing import Optional
 
-from .tree_scanner import FileEntry
+from directory_tree.tree_scanner import FileEntry
 
 
 @dataclass(frozen=True, slots=True)
